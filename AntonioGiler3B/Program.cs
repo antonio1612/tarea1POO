@@ -13,10 +13,11 @@ namespace AntonioGiler3B
                 {
                     Console.WriteLine("TAREA");
                     Console.WriteLine("Seleccione el ejercicio escribiendo su numero");
-                    for (int i = 1; i < 12; i++)
+                    for (int i = 1; i < 11; i++)
                     {
                         Console.WriteLine("Ejercicio " + i);
                     }
+                    Console.WriteLine("Salir 11");
                     seleccion = int.Parse(Console.ReadLine());
                     switch (seleccion)
                     {
